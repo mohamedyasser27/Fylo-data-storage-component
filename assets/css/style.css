@@ -36,6 +36,12 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.component{
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+
 .toolkit {
   background-color: var(--Dark_Blue);
   padding: 30px;
@@ -47,7 +53,9 @@ body {
   border-radius: 10px;
   border-top-right-radius: 80px;
 
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
+  
 }
 
 .logo {
@@ -71,23 +79,54 @@ body {
 
 .storage {
   background-color: var(--Dark_Blue);
+  color: white;
   padding: 40px;
+  border-radius: 10px;
+    max-width: 600px;
+  width: 100%;
 }
 
 .message {
+  margin-bottom: 10px;
+}
+.message span {
+  font-weight: 700;
 }
 
 .bar {
+  background-color: var(--Very_Dark_Blue);
+  border-radius: 20px;
   height: 20px;
   width: 100%;
-  background-color: var(--Very_Dark_Blue);
+  padding: 3px;
 }
 
 .used {
+  border-radius: 20px;
+  background: var(--Gradient);
   width: 81.5%;
+  height: 100%;
+  position: relative;
 }
 
 .dot {
+  position: absolute;
+  right: 1px;
+  width: 14px;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.bottom {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom p {
+  font-size: 12px;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 600px) {
