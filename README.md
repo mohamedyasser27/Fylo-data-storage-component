@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://github.com/mohamedyasser27/)
-- Live Site URL: [site](https://mohamedyasser27.github.io/)
+- Solution URL: [solution](https://github.com/mohamedyasser27/Fylo-data-storage-component)
+- Live Site URL: [site](https://mohamedyasser27.github.io/Fylo-data-storage-component/)
 
 ## My process
 
